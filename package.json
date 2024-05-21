@@ -10,6 +10,7 @@
     "@mdi/font": "^7.4.47",
     "lodash": "^4.17.21",
     "roboto-fontface": "*",
+    "unplugin-vue-components": "^0.27.0",
     "vue": "^3.4.0",
     "vue-paho-mqtt": "^0.6.1",
     "vuetify": "^3.5.0"
@@ -18,7 +19,6 @@
     "@vitejs/plugin-vue": "^5.0.4",
     "sass": "^1.71.1",
     "unplugin-fonts": "^1.1.1",
-    "unplugin-vue-components": "^0.26.0",
     "vite": "^5.1.5",
     "vite-plugin-vuetify": "^2.0.3"
   }

@@ -1,0 +1,2 @@
+# use mosquitto_passwd to convert to a hashed password file
+home:home

@@ -1,0 +1,16 @@
+services:
+  aziz-light:
+    image: salcedo/aziz-light:latest
+    restart: unless-stopped
+    ports:
+      - 8080:8080
+
+  mosquitto:
+    image: eclipse-mosquitto:2
+    restart: unless-stopped
+    ports:
+      - 1883:1883
+      - 9001:9001
+    volumes:
+      - ./config:/mosquitto/config
+      - ./data:/mosquitto/data

@@ -6,6 +6,8 @@ It's very opinionated and probably only works with Kauf RGBWW Bulbs running [Tas
 
 ## 🚀 Quick start
 
+1. use `mosquitto_passwd` to create the file `config/passwd`
+2.
 ```bash
-docker run -d --name aziz-light -p 8080:8080 salcedo/aziz-light
+docker compose up -d
 ```
